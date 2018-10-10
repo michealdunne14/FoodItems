@@ -1,25 +1,46 @@
-let foodList = require('../models/foodList');
+let Food = require('../models/foodList');
 let express = require('express');
 let router = express.Router();
+let mongoose = require('mongoose');
+
+var mongodbUri ='mongodb://MichealDunne1:FoodDatabase1@ds225543.mlab.com:25543/foodsdb';
+
+mongoose.connect(mongodbUri);
+
+let db = mongoose.connection;
+
+db.on('error', function (err) {
+    console.log('Unable to Connect to [ ' + db.name + ' ]', err);
+});
+
+db.once('open', function () {
+    console.log('Successfully Connected to [ ' + db.name + ' ]');
+});
+
 //Find all Pieces of Food
 router.findAll = (req, res) => {
     // Return a JSON representation of our list
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(foodList,null,5));
-    res.json(foodList);
+
+    Food.find(function(err, foodList) {
+        if (err)
+            res.send(err);
+
+        res.send(JSON.stringify(foodList,null,5));
+    });
 }
-//Find one Piece of food
+
+//Find one piece of food
 router.findOne = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
 
-    var food = getByValue(foodList,req.params.id);
-
-    if (food != null)
-        res.send(JSON.stringify(food,null,5));
-    else
-        res.send('Food NOT Found!!');
-
+    Food.find({ "_id" : req.params.id },function(err, food) {
+        if (err)
+            res.json({ message: 'Food NOT Found!', errmsg : err } );
+        else
+            res.send(JSON.stringify(food,null,5));
+    });
 }
 
 router.findCourseDinner = (req,res) => {
@@ -35,52 +56,62 @@ router.findCourseDinner = (req,res) => {
 
 //Add food to database
 router.addFood = (req, res) => {
-    //Add a new donation to our list
-    var id = Math.floor((Math.random() * 1000000) + 1); //Randomly generate an id
-    var currentSize = foodList.length;
+    res.setHeader('Content-Type', 'application/json');
 
-    foodList.push({id: id, "coursedinner": req.body.coursedinner, "fooditem": req.body.fooditem, upvotes: 0});
+    var food = new Food();
 
-    if((currentSize + 1) == foodList.length)
-        res.json({ message: 'Food Added Successfully!'});
-    else
-        res.json({ message: 'Food NOT Added!'});
+    food.coursedinner = req.body.coursedinner;
+        food.fooditem = req.body.fooditem;
+
+            food.save(function(err) {
+                if (err)
+                    res.json({ message: 'Food NOT Added!', errmsg : err } );
+                else
+                    res.json({ message: 'Food Successfully Added!', data: food });
+            });
 }
+
+
 //Add upvote to list
 router.incrementUpvotes = (req, res) => {
-    /*res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(foodList,null,5));*/
-
-    var food = getByValue(foodList,req.params.id);
-
-    if (food != null) {
-        food.upvotes += 1;
-        res.json({status : 200, message : 'UpVote Successful' , donation : food });
-    }
-    else
-        res.send('Food NOT Found - UpVote NOT Successful!!');
-
+    Food.findById(req.params.id, function(err,food) {
+        if (err)
+            res.json({ message: 'Food NOT Found!', errmsg : err } );
+        else {
+            food.upvotes += 1;
+            food.save(function (err) {
+                if (err)
+                    res.json({ message: 'Food NOT UpVoted!', errmsg : err } );
+                else
+                    res.json({ message: 'Food Successfully Upvoted!', data: food });
+            });
+        }
+    });
 }
+
+
 //Delete a
 router.deleteFood = (req, res) => {
-    //Delete the selected donation based on its id
-    var food = getByValue(foodList,req.params.id);
-    var index = foodList.indexOf(food);
 
-    var currentSize = foodList.length;
-    foodList.splice(index, 1);
-
-    if((currentSize - 1) == foodList.length)
-        res.json({ message: 'Food Deleted!'});
-    else
-        res.json({ message: 'Food NOT Deleted!'});
+    Food.findByIdAndRemove(req.params.id, function(err) {
+        if (err)
+            res.json({ message: 'Food NOT DELETED!', errmsg : err } );
+        else
+            res.json({ message: 'Food Successfully Deleted!'});
+    });
 }
 
+//Getting total Votes
 router.findTotalVotes = (req, res) => {
 
-    let votes = getTotalVotes(foodList);
-    res.json({totalvotes : votes});
+    Food.find(function(err, donations) {
+        if (err)
+            res.send(err);
+        else
+            res.json({ totalvotes : getTotalVotes(donations) });
+    });
 }
+
 //Get all votes
 function getTotalVotes(array) {
     let totalVotes = 0;
