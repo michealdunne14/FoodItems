@@ -1,0 +1,544 @@
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T105718.200.json
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T104659.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T104652.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T104525.200.json
+
+###
+
+GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T104518.200.json
+
+###
+
+DELETE http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T104505.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T104454.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T104452.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T104031.500.html
+
+###
+
+GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103938.404.html
+
+###
+
+GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103932.200.json
+
+###
+
+PUT http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103926.404.html
+
+###
+
+PUT http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103925.404.html
+
+###
+
+PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103920.404.html
+
+###
+
+PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103521.500.html
+
+###
+
+GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103428.404.html
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103419.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103044.200.json
+
+###
+
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T103030.200.json
+
+###
+
+GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02deZ
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T102719.200.json
+
+###
+
+GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T102700.200.json
+
+###
+
+GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T102543.500.json
+
+###
+
+GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T102504.500.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-10T102319.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+###
+
+GET http://localhost:3000/foodList/coursedinner
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T042212.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T042204.200.json
+
+###
+
+GET http://localhost:3000/foodList/starter/coursedinner
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T042154.404.html
+
+###
+
+GET http://localhost:3000/foodList/'starter'/coursedinner
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T042148.404.html
+
+###
+
+GET http://localhost:3000/foodList/coursedinner
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T042130.200.json
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T041019.200.json
+
+###
+
+GET http://localhost:3000/foodList/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T040638.200.json
+
+###
+
+PUT http://localhost:3000/foodList/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T040634.404.html
+
+###
+
+PUT http://localhost:3000/foodList/1000000/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T040628.200.json
+
+###
+
+PUT http://localhost:3000/foodList/1000000/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T040616.200.json
+
+###
+
+GET http://localhost:3000/foodList/1000000
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T040519.200.json
+
+###
+
+GET http://localhost:3000/foodList/1000000/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T040510.404.html
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T040455.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T123243.200.json
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T123156.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T123147.200.json
+
+###
+
+GET http://localhost:3000/foodList/vote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T123145.200.json
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T123029.200.json
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T122919.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T122852.200.json
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T122810.200.json
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T122803.200.json
+
+###
+
+GET http://localhost:3000/foodList/votes
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+
+<> 2018-10-08T122802.200.json
+
+###
+

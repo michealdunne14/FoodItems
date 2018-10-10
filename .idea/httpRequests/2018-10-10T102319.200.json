@@ -1,0 +1,20 @@
+[
+  {
+    "upvotes": 0,
+    "_id": "5bbdbd81adfb588b1fca02de",
+    "coursedinner": "Starter",
+    "fooditem": "ceasar salad"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bbdbd9dadfb588b1fca02df",
+    "coursedinner": "Main",
+    "fooditem": "chicken stir fry"
+  },
+  {
+    "upvotes": 0,
+    "_id": "5bbdbdb0adfb588b1fca02e0",
+    "coursedinner": "Desert",
+    "fooditem": "death by chocolate"
+  }
+]

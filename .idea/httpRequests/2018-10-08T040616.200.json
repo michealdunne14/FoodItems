@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "message": "UpVote Successful",
+  "donation": {
+    "id": 1000000,
+    "coursedinner": "Starter",
+    "fooditem": "ceasar salad",
+    "upvotes": 2
+  }
+}
