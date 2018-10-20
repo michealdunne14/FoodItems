@@ -1,9 +1,0 @@
-{
-  "message": "Food Successfully Upvoted!",
-  "data": {
-    "upvotes": 1,
-    "_id": "5bbdbd81adfb588b1fca02de",
-    "coursedinner": "Starter",
-    "fooditem": "ceasar salad"
-  }
-}

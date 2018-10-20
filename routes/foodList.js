@@ -1,4 +1,5 @@
 let Food = require('../models/foodList');
+let Restaurant = require('../models/restaurants');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -43,15 +44,16 @@ router.findOne = (req, res) => {
     });
 }
 
-router.findCourseDinner = (req,res) => {
-    res.header('Content-Type', 'application/json');
+router.findCourse = (req, res) => {
 
-    var food = getByValue(foodList,req.params.coursedinner)
+    res.setHeader('Content-Type', 'application/json');
 
-    if (food != null){
-        res.send(JSON.stringify(food,null,5));
-    } else
-        res.send("Food Not Found!!");
+    Food.find({ "coursedinner" : req.params.coursedinner },function(err, food) {
+        if (err)
+            res.json({ message: 'Food NOT Found!', errmsg : err } );
+        else
+            res.send(JSON.stringify(food,null,5));
+    });
 }
 
 //Add food to database
@@ -71,6 +73,21 @@ router.addFood = (req, res) => {
             });
 }
 
+router.addRestaurants = (req,res) => {
+    res.setHeader('Content-Type','application/json');
+
+    var restaurant = new Restaurant();
+
+    restaurant.name = req.body.name;
+    restaurant.location = req.body.location;
+
+        restaurant.save(function (err) {
+            if (err){
+                res.json({ message: 'Restaurant NOT Added!', errmsg : err } );
+            } else
+                res.json({ message: 'Restaurant Successfully Added!', data: restaurant });
+        })
+}
 
 //Add upvote to list
 router.incrementUpvotes = (req, res) => {
@@ -89,10 +106,21 @@ router.incrementUpvotes = (req, res) => {
     });
 }
 
+//Find one piece of food
+router.fuzzySearch = (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
 
-//Delete a
+    Food.find({ "fooditem" : req.params.fooditem },function(err, food) {
+        if (err)
+            res.json({ message: 'Food NOT Found!', errmsg : err } );
+        else
+            res.send(JSON.stringify(result,null,5));
+    });
+}
+
+
+//Delete a Food Item
 router.deleteFood = (req, res) => {
-
     Food.findByIdAndRemove(req.params.id, function(err) {
         if (err)
             res.json({ message: 'Food NOT DELETED!', errmsg : err } );

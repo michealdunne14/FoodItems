@@ -1,176 +1,119 @@
-POST http://localhost:3000/foodList
+GET http://localhost:3000/foodList/fuzzy/Soup
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-10T105718.200.json
+{"authName": "Jon", "authPassword": "password"}
 
 ###
 
-GET http://localhost:3000/foodList/votes
+GET http://localhost:3000/foodList/fuzzy/Soup
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T104659.200.json
+<> 2018-10-20T111337.200.json
 
 ###
 
-GET http://localhost:3000/foodList
+GET http://localhost:3000/foodList/fuzzy/Sou
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T104652.200.json
+<> 2018-10-20T111334.200.json
 
 ###
 
-GET http://localhost:3000/foodList
+GET http://localhost:3000/foodList/fuzzy/Soup
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T104525.200.json
+<> 2018-10-20T111330.200.json
 
 ###
 
-GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+GET http://localhost:3000/foodList/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T104518.200.json
+<> 2018-10-20T111320.200.json
 
 ###
 
-DELETE http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+DELETE http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T104505.200.json
+<> 2018-10-20T105437.200.json
 
 ###
 
-PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+DELETE http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T104454.200.json
+<> 2018-10-20T105436.200.json
 
 ###
 
-PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+DELETE http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T104452.200.json
+<> 2018-10-20T105429.200.json
 
 ###
 
-PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+DELETE http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T104031.500.html
+<> 2018-10-20T104559.200.json
 
 ###
 
-GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
+DELETE http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T103938.404.html
+<> 2018-10-20T104536.404.html
 
 ###
 
-GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T103932.200.json
-
-###
-
-PUT http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-10T103926.404.html
-
-###
-
-PUT http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-10T103925.404.html
-
-###
-
-PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-10T103920.404.html
-
-###
-
-PUT http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-10T103521.500.html
-
-###
-
-GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de/vote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-10T103428.404.html
+<> 2018-10-20T104527.200.json
 
 ###
 
@@ -179,9 +122,139 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Jon", "authPassword": "password"}
 
-<> 2018-10-10T103419.200.json
+<> 2018-10-20T104453.200.json
+
+###
+
+GET http://localhost:3000/foodLiat
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-20T104451.404.html
+
+###
+
+GET http://localhost:3000/authentication/user/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-20T104445.404.html
+
+###
+
+GET http://localhost:3000/authentication/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-20T104441.404.html
+
+###
+
+DELETE http://localhost:3000/authentication/user/5bc8e2bf938bf12b6c77156a
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-20T104301.200.json
+
+###
+
+GET http://localhost:3000/authentication/user/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-20T104230.200.json
+
+###
+
+DELETE http://localhost:3000/authentication/user/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-20T104207.200.json
+
+###
+
+DELETE http://localhost:3000/authentication/user/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-20T103937.500.html
+
+###
+
+DELETE http://localhost:3000/authentication/user/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-19T032149.500.html
+
+###
+
+DELETE http://localhost:3000/authentication/user/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+###
+
+DELETE http://localhost:3000/authentication/user/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-18T084615.500.html
+
+###
+
+POST http://localhost:3000/authentication/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "password"}
+
+<> 2018-10-18T084503.200.json
+
+###
+
+POST http://localhost:3000/authentication/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Micheal", "authPassword": "micheal"}
+
+<> 2018-10-18T084401.200.json
 
 ###
 
@@ -190,267 +263,238 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-10T103044.200.json
+<> 2018-10-18T084319.200.json
 
 ###
 
-POST http://localhost:3000/foodList
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-10T103030.200.json
+<> 2018-10-18T084305.200.json
 
 ###
 
-GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02deZ
+DELETE http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-10T102719.200.json
+<> 2018-10-18T083707.500.html
 
 ###
 
-GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+DELETE http://localhost:3000/authentication/Id/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-10T102700.200.json
+<> 2018-10-18T083649.404.html
 
 ###
 
-GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+DELETE http://localhost:3000/authentication/Id/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-10T102543.500.json
+{"authName": "Micheal", "authPassword": "micheal"}
 
 ###
 
-GET http://localhost:3000/foodList/5bbdbd81adfb588b1fca02de
+DELETE http://localhost:3000/foodList/Id/5bbde5fb9e345828901dcd88
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-10T102504.500.json
+<> 2018-10-18T082947.200.json
 
 ###
 
-GET http://localhost:3000/foodList
+GET http://localhost:3000/foodList/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-10T102319.200.json
+<> 2018-10-18T082929.200.json
 
 ###
 
-GET http://localhost:3000/foodList
+GET http://localhost:3000/foodList/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
+
+<> 2018-10-18T082734.200.json
 
 ###
 
-GET http://localhost:3000/foodList/coursedinner
+DELETE http://localhost:3000/foodList/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T042212.200.json
+<> 2018-10-18T082731.404.html
 
 ###
 
-GET http://localhost:3000/foodList
+DELETE http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T042204.200.json
+<> 2018-10-18T082535.500.html
 
 ###
 
-GET http://localhost:3000/foodList/starter/coursedinner
+DELETE http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T042154.404.html
+<> 2018-10-18T082506.404.html
 
 ###
 
-GET http://localhost:3000/foodList/'starter'/coursedinner
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T042148.404.html
+<> 2018-10-18T081115.200.json
 
 ###
 
-GET http://localhost:3000/foodList/coursedinner
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T042130.200.json
+<> 2018-10-18T081101.200.json
 
 ###
 
-GET http://localhost:3000/foodList/votes
+GET http://localhost:3000/authentication/user/kjads
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T041019.200.json
+<> 2018-10-18T081028.200.json
 
 ###
 
-GET http://localhost:3000/foodList/1000000
+GET http://localhost:3000/authentication/user/
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T040638.200.json
+<> 2018-10-18T081023.404.html
 
 ###
 
-PUT http://localhost:3000/foodList/1000000
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T040634.404.html
+<> 2018-10-18T080714.200.json
 
 ###
 
-PUT http://localhost:3000/foodList/1000000/vote
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T040628.200.json
+<> 2018-10-18T080654.200.json
 
 ###
 
-PUT http://localhost:3000/foodList/1000000/vote
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T040616.200.json
+<> 2018-10-18T080551.200.json
 
 ###
 
-GET http://localhost:3000/foodList/1000000
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T040519.200.json
+<> 2018-10-18T080550.200.json
 
 ###
 
-GET http://localhost:3000/foodList/1000000/vote
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T040510.404.html
+<> 2018-10-18T080458.200.json
 
 ###
 
-GET http://localhost:3000/foodList
+GET http://localhost:3000/foodList/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T040455.200.json
+<> 2018-10-18T080354.404.html
 
 ###
 
-GET http://localhost:3000/foodList
+GET http://localhost:3000/foodList/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-###
-
-GET http://localhost:3000/foodList/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-08T123243.200.json
-
-###
-
-GET http://localhost:3000/foodList/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-08T123156.200.json
+<> 2018-10-18T080223.404.html
 
 ###
 
@@ -459,86 +503,42 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T123147.200.json
+<> 2018-10-18T080204.200.json
 
 ###
 
-GET http://localhost:3000/foodList/vote
+GET http://localhost:3000/authentication
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T123145.200.json
+<> 2018-10-18T080155.404.html
 
 ###
 
-GET http://localhost:3000/foodList/votes
+GET http://localhost:3000/authentication/user/Micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T123029.200.json
+<> 2018-10-18T080141.200.json
 
 ###
 
-GET http://localhost:3000/foodList/votes
+GET http://localhost:3000/foodList/Id/5bbde5fb9e345828901dcd88
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
+{"authName": "Micheal", "authPassword": "micheal"}
 
-<> 2018-10-08T122919.200.json
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-08T122852.200.json
-
-###
-
-GET http://localhost:3000/foodList/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-08T122810.200.json
-
-###
-
-GET http://localhost:3000/foodList/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-08T122803.200.json
-
-###
-
-GET http://localhost:3000/foodList/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"id": 10000010, "coursedinner": "Starter", "fooditem": "Soup", "upvotes": 2}
-
-<> 2018-10-08T122802.200.json
+<> 2018-10-18T080053.200.json
 
 ###
 
