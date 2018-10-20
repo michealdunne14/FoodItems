@@ -106,6 +106,22 @@ router.incrementUpvotes = (req, res) => {
     });
 }
 
+router.incrementDownvotes = (req, res) => {
+    Food.findById(req.params.id, function(err,food) {
+        if (err)
+            res.json({ message: 'Food NOT Found!', errmsg : err } );
+        else {
+            food.downvotes -= 1;
+            food.save(function (err) {
+                if (err)
+                    res.json({ message: 'Food NOT DownVoted!', errmsg : err } );
+                else
+                    res.json({ message: 'Food Successfully DownVoted!', data: food });
+            });
+        }
+    });
+}
+
 //Find one piece of food
 router.fuzzySearch = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
@@ -114,7 +130,8 @@ router.fuzzySearch = (req, res) => {
         if (err)
             res.json({ message: 'Food NOT Found!', errmsg : err } );
         else
-            res.send(JSON.stringify(result,null,5));
+
+            res.send(JSON.stringify(food,null,5));
     });
 }
 

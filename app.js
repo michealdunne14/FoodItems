@@ -32,7 +32,8 @@ app.post('/foodList',foodList.addFood);
 app.post('/restaurant',foodList.addRestaurants);
 app.post('/authentication',authentication.addUser)
 
-app.put('/foodList/:id/vote', foodList.incrementUpvotes);
+app.put('/foodList/:id/upvote', foodList.incrementUpvotes);
+app.put('/foodList/:id/downvote', foodList.incrementDownvotes)
 
 
 app.delete('/foodList/Id/:id', foodList.deleteFood);
