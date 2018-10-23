@@ -15,6 +15,11 @@ Requirements
 ------------
 This app must be run through WebStorm as this is where the REST Client is located
 
+References
+----------
+[Encryption](https://medium.freecodecamp.org/learn-how-to-handle-authentication-with-node-using-passport-js-4a56ed18e81e)
+
+[Labs](ddrohan.github.io/)
 
 Tools
 -----

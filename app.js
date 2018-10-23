@@ -7,7 +7,7 @@ var logger = require('morgan');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 const foodList = require("./routes/foodList");
-const authentication = require("./routes/authentication");
+const authentication = require("./routes/user");
 
 var app = express();
 
@@ -25,19 +25,18 @@ app.get('/foodList', foodList.findAll);
 app.get('/foodList/votes', foodList.findTotalVotes);
 app.get('/foodList/Course/:coursedinner', foodList.findCourse);
 app.get('/foodList/Id/:id', foodList.findOne);
-app.get('/authentication/user/:authName',authentication.findUser);
+app.get('/user/name/:authName',authentication.findUser);
 app.get('/foodList/fuzzy/:fooditem',foodList.fuzzySearch)
 
 app.post('/foodList',foodList.addFood);
-app.post('/restaurant',foodList.addRestaurants);
-app.post('/authentication',authentication.addUser)
+app.post('/user',authentication.addUser)
 
 app.put('/foodList/:id/upvote', foodList.incrementUpvotes);
 app.put('/foodList/:id/downvote', foodList.incrementDownvotes)
 
 
 app.delete('/foodList/Id/:id', foodList.deleteFood);
-app.delete('/authentication/user/:authName', authentication.deleteUser);
+app.delete('/user/name/:authName', authentication.deleteUser);
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

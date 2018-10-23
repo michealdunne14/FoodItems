@@ -1,4 +1,4 @@
-let User = require('../models/authentication');
+let User = require('../models/user');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -45,7 +45,7 @@ router.addUser = (req,res) => {
 
     user.authName = req.body.authName;
     user.authPassword = req.body.authPassword;
-
+    user.setPassword(user.authPassword)
     user.save(function (err) {
         if (err) {
             res.json({message: 'User NOT Added!', errmsg: err});

@@ -1,5 +1,4 @@
 let Food = require('../models/foodList');
-let Restaurant = require('../models/restaurants');
 let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
@@ -72,23 +71,6 @@ router.addFood = (req, res) => {
                     res.json({ message: 'Food Successfully Added!', data: food });
             });
 }
-
-router.addRestaurants = (req,res) => {
-    res.setHeader('Content-Type','application/json');
-
-    var restaurant = new Restaurant();
-
-    restaurant.name = req.body.name;
-    restaurant.location = req.body.location;
-
-        restaurant.save(function (err) {
-            if (err){
-                res.json({ message: 'Restaurant NOT Added!', errmsg : err } );
-            } else
-                res.json({ message: 'Restaurant Successfully Added!', data: restaurant });
-        })
-}
-
 //Add upvote to list
 router.incrementUpvotes = (req, res) => {
     Food.findById(req.params.id, function(err,food) {
@@ -121,18 +103,20 @@ router.incrementDownvotes = (req, res) => {
         }
     });
 }
-
 //Find one piece of food
 router.fuzzySearch = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
 
-    Food.find({ "fooditem" : req.params.fooditem },function(err, food) {
-        if (err)
-            res.json({ message: 'Food NOT Found!', errmsg : err } );
-        else
+    var value = req.params.fooditem;
+    var finalValue = req.params.fooditem;
+    //console.log(finalValue)
+    for (let i = 0; i < value.length;i++) {
+        var result = value.slice(0,i-1);
+    }
+    if (value.includes(result)){
+        console.log(result)
+    }
 
-            res.send(JSON.stringify(food,null,5));
-    });
 }
 
 
