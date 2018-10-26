@@ -1,3 +1,91 @@
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "Soup"}
+
+<> 2018-10-26T032931.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Jon", "authPassword": "Soup"}
+
+<> 2018-10-26T032927.200.json
+
+###
+
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "micheal", "authPassword": "Soup"}
+
+<> 2018-10-26T032908.200.json
+
+###
+
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "micheal", "authPassword": "Soup"}
+
+<> 2018-10-26T013750.200.json
+
+###
+
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "micheal", "authPassword": "Soup"}
+
+<> 2018-10-26T013537.404.html
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "micheal", "authPassword": "Soup"}
+
+<> 2018-10-26T013518.200.json
+
+###
+
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "micheal", "authPassword": "Soup"}
+
+<> 2018-10-26T013514.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "micheal", "authPassword": "Soup"}
+
+<> 2018-10-26T013507.200.json
+
+###
+
 GET http://localhost:3000/foodList/fuzzy/ssfd
 Accept: */*
 Cache-Control: no-cache
@@ -453,82 +541,6 @@ Content-Type: application/json
 {"authName": "Jonsdf", "authPassword": "password"}
 
 <> 2018-10-24T120935.200.json
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-24T120233.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/Soup
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/Soup
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/Soup
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/Soup
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/So
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/So
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-24T114707.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/So
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
 
 ###
 

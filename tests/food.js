@@ -1,14 +1,13 @@
 let Food = require('../models/foodList');
-exports.test1 = function (test) {
-    var food = new Food();
-}
+let food = new Food();
 
 exports.testSomething = function(test) {
-    if (typeof test === 'Soup'){
-        return test.ok(true, "this passed")
-        test.done()
+    if (typeof food.fooditem == 'Soup'){
+        test.ok(true, "this passed")
+        test.done();
     } else{
-        return test.ok(false, "this failed")
+        test.ok(false, "this failed")
+        test.done();
     }
 };
 

@@ -16,6 +16,19 @@ db.once('open', function () {
     console.log('Successfully Connected to [ ' + db.name + ' ]');
 });
 
+router.findAll = (req, res) => {
+    // Return a JSON representation of our list
+    res.setHeader('Content-Type', 'application/json');
+
+    User.find(function(err, foodList) {
+        if (err)
+            res.send(err);
+
+        res.send(JSON.stringify(foodList,null,5));
+    });
+}
+
+
 //Find one piece of food
 router.findUser = (req, res) => {
 
