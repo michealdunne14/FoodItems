@@ -5,7 +5,7 @@ let AuthSchema = new mongoose.Schema({
         authName: {type: String,default: ""},
         authPassword: String,
     },
-    { collection: 'foodsdb' });
+    { collection: 'usersdb' });
 
     AuthSchema.methods.setPassword = function(password){
         this.salt = crypto.randomBytes(16).toString('hex');

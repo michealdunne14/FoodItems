@@ -107,19 +107,20 @@ router.incrementDownvotes = (req, res) => {
 //Find one piece of food
 router.fuzzySearch = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-    var value = req.params.fooditem;
-    for (let i = 0; i < value.length;i++) {
+    var value = req.params.fooditem.toLowerCase();
+    let array = [];
         Food.find(function(err, foodList) {
             if (err)
                 res.send(err);
             else {
-                if (foodList[i].fooditem.includes(value)) {
-                    console.log(foodList)
-                    res.send(JSON.stringify(foodList[i], null, 5));
+                for (let i = 0; i < foodList.length; i++) {
+                    if (foodList[i].fooditem.toLowerCase().includes(value)) {
+                        array.push(foodList[i]);
+                    }
                 }
+                res.send(JSON.stringify(array, null, 5));
             }
         });
-    }
 }
 
 
