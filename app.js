@@ -5,7 +5,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 const foodList = require("./routes/foodList");
 const authentication = require("./routes/user");
 
@@ -26,20 +25,19 @@ app.get('/foodList/votes', foodList.findTotalVotes);
 app.get('/foodList/Course/:coursedinner', foodList.findCourse);
 app.get('/foodList/Id/:id', foodList.findOne);
 app.get('/user/name/:authName',authentication.findUser);
-app.get('/foodList/fuzzy/:fooditem',foodList.fuzzySearch)
+app.get('/foodList/fuzzy/:fooditem',foodList.fuzzySearch);
 
 app.post('/foodList',foodList.addFood);
 app.post('/user',authentication.addUser)
 
 app.put('/foodList/:id/upvote', foodList.incrementUpvotes);
-app.put('/foodList/:id/downvote', foodList.incrementDownvotes)
+app.put('/foodList/:id/downvote', foodList.incrementDownvotes);
 
 
 app.delete('/foodList/Id/:id', foodList.deleteFood);
 app.delete('/user/name/:authName', authentication.deleteUser);
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -103,20 +103,23 @@ router.incrementDownvotes = (req, res) => {
         }
     });
 }
+
 //Find one piece of food
 router.fuzzySearch = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-
     var value = req.params.fooditem;
-    var finalValue = req.params.fooditem;
-    //console.log(finalValue)
     for (let i = 0; i < value.length;i++) {
-        var result = value.slice(0,i-1);
+        Food.find(function(err, foodList) {
+            if (err)
+                res.send(err);
+            else {
+                if (foodList[i].fooditem.includes(value)) {
+                    console.log(foodList)
+                    res.send(JSON.stringify(foodList[i], null, 5));
+                }
+            }
+        });
     }
-    if (value.includes(result)){
-        console.log(result)
-    }
-
 }
 
 
