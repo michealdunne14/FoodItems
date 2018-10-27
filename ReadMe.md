@@ -41,6 +41,10 @@ Tools
 * Heruko
 * Mongo 
 
+Video
+-----
+[Youtube](https://youtu.be/NLrsunsdnWY)
+
 
 Author
 ------
