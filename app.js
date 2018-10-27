@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 const foodList = require("./routes/foodList");
-const authentication = require("./routes/user");
+const user = require("./routes/user");
 
 var app = express();
 
@@ -20,23 +20,26 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+//Gets
 app.get('/foodList', foodList.findAll);
-app.get('/user',authentication.findAll)
+app.get('/user',user.findAll);
 app.get('/foodList/votes', foodList.findTotalVotes);
 app.get('/foodList/Course/:coursedinner', foodList.findCourse);
 app.get('/foodList/Id/:id', foodList.findOne);
-app.get('/user/name/:authName',authentication.findUser);
+app.get('/user/name/:authName',user.findUser);
 app.get('/foodList/fuzzy/:fooditem',foodList.fuzzySearch);
 
+//Posts
 app.post('/foodList',foodList.addFood);
-app.post('/user',authentication.addUser)
+app.post('/user',user.addUser);
 
+//Puts
 app.put('/foodList/:id/upvote', foodList.incrementUpvotes);
 app.put('/foodList/:id/downvote', foodList.incrementDownvotes);
 
-
+//Deletes
 app.delete('/foodList/Id/:id', foodList.deleteFood);
-app.delete('/user/name/:authName', authentication.deleteUser);
+app.delete('/user/Id/:id', user.deleteUser);
 
 app.use('/', indexRouter);
 

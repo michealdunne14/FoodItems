@@ -31,7 +31,7 @@ References
  
 [Encryption](https://medium.freecodecamp.org/learn-how-to-handle-authentication-with-node-using-passport-js-4a56ed18e81e)
 
-[Labs](ddrohan.github.io/)
+[Labs](ddrohan.github.io)
 
 [Tests](https://www.npmjs.com/package/nodeunit)
 

@@ -11,6 +11,6 @@ let AuthSchema = new mongoose.Schema({
     AuthSchema.methods.setPassword = function(password){
         this.salt = crypto.randomBytes(16).toString('hex');
         this.authPassword = crypto.pbkdf2Sync(password,this.salt,10000,16,'sha512').toString('hex');
-    }
+    };
 
 module.exports = mongoose.model('Authentication', AuthSchema);

@@ -30,11 +30,10 @@ router.findAll = (req, res) => {
 
         res.send(JSON.stringify(foodList,null,5));
     });
-}
+};
 
 //Find one piece of food
 router.findOne = (req, res) => {
-
     res.setHeader('Content-Type', 'application/json');
 
     Food.find({ "_id" : req.params.id },function(err, food) {
@@ -43,7 +42,7 @@ router.findOne = (req, res) => {
         else
             res.send(JSON.stringify(food,null,5));
     });
-}
+};
 
 //Finding the course dinner
 router.findCourse = (req, res) => {
@@ -56,7 +55,7 @@ router.findCourse = (req, res) => {
         else
             res.send(JSON.stringify(food,null,5));
     });
-}
+};
 
 //Add food to database
 router.addFood = (req, res) => {
@@ -71,7 +70,7 @@ router.addFood = (req, res) => {
                 else
                     res.json({ message: 'Food Successfully Added!', data: food });
             });
-}
+};
 
 //Add upvote to list
 router.incrementUpvotes = (req, res) => {
@@ -88,7 +87,7 @@ router.incrementUpvotes = (req, res) => {
             });
         }
     });
-}
+};
 
 //Down voting a food system
 router.incrementDownvotes = (req, res) => {
@@ -105,7 +104,7 @@ router.incrementDownvotes = (req, res) => {
             });
         }
     });
-}
+};
 
 //Find one piece of food
 router.fuzzySearch = (req, res) => {
@@ -124,7 +123,7 @@ router.fuzzySearch = (req, res) => {
                 res.send(JSON.stringify(array, null, 5));
             }
         });
-}
+};
 
 
 //Delete a Food Item
@@ -135,7 +134,7 @@ router.deleteFood = (req, res) => {
         else
             res.json({ message: 'Food Successfully Deleted!'});
     });
-}
+};
 
 //Getting total Votes
 router.findTotalVotes = (req, res) => {
@@ -146,7 +145,7 @@ router.findTotalVotes = (req, res) => {
         else
             res.json({ totalvotes : getTotalVotes(donations) });
     });
-}
+};
 
 //Get all votes
 function getTotalVotes(array) {
@@ -154,6 +153,7 @@ function getTotalVotes(array) {
     array.forEach(function(obj) { totalVotes += obj.upvotes; });
     return totalVotes;
 }
+
 //Get value
 function getByValue(array, id) {
     var result  = array.filter(function(obj){return obj.id == id;} );

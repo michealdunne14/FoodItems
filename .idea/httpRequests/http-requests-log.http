@@ -3,20 +3,64 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "Jon", "authPassword": "Soup"}
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
 
-<> 2018-10-26T032931.200.json
+<> 2018-10-27T034614.200.json
 
 ###
 
-POST http://localhost:3000/user
+DELETE http://localhost:3000/user
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "Jon", "authPassword": "Soup"}
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
 
-<> 2018-10-26T032927.200.json
+<> 2018-10-27T034602.404.html
+
+###
+
+DELETE http://localhost:3000/user/Id/5bd4773b8c92521cdcb063a9
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034556.200.json
+
+###
+
+DELETE http://localhost:3000/user/Id/5bd4773b8c92521cdcb063a9
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034531.404.html
+
+###
+
+DELETE http://localhost:3000/user/Id/5bd4773b8c92521cdcb063a9
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034521.404.html
+
+###
+
+GET http://localhost:3000/user/Id/5bd4773b8c92521cdcb063a9
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034517.404.html
 
 ###
 
@@ -25,9 +69,97 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "micheal", "authPassword": "Soup"}
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
 
-<> 2018-10-26T032908.200.json
+<> 2018-10-27T034448.200.json
+
+###
+
+DELETE http://localhost:3000/user/name/5bd309fb09c23043f87ea190
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034410.200.json
+
+###
+
+GET http://localhost:3000/user/name/5bd309fb09c23043f87ea190
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034405.200.json
+
+###
+
+GET http://localhost:3000/user/Id/5bd309fb09c23043f87ea190
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034335.404.html
+
+###
+
+GET http://localhost:3000/user/name/5bd309fb09c23043f87ea190
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034330.200.json
+
+###
+
+GET http://localhost:3000/user/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034323.200.json
+
+###
+
+GET http://localhost:3000/user/name/5bd309fb09c23043f87ea190
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034311.200.json
+
+###
+
+GET http://localhost:3000/user/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034254.200.json
+
+###
+
+DELETE http://localhost:3000/user/name/5bd309fb09c23043f87ea190
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034246.200.json
 
 ###
 
@@ -36,9 +168,108 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "micheal", "authPassword": "Soup"}
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
 
-<> 2018-10-26T013750.200.json
+<> 2018-10-27T034120.200.json
+
+###
+
+DELETE http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034112.404.html
+
+###
+
+DELETE http://localhost:3000/user/name/David
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034107.200.json
+
+###
+
+DELETE http://localhost:3000/user/name/micheal
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T034038.200.json
+
+###
+
+DELETE http://localhost:3000/user/name/micheal
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033946.200.json
+
+###
+
+DELETE http://localhost:3000/user/name/micheal
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033936.200.json
+
+###
+
+DELETE http://localhost:3000/user/name/micheal
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033832.200.json
+
+###
+
+DELETE http://localhost:3000/user/name/David
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033822.200.json
+
+###
+
+DELETE http://localhost:3000/user/name/David
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033807.200.json
+
+###
+
+GET http://localhost:3000/user/name/David
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033803.200.json
 
 ###
 
@@ -47,9 +278,141 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "micheal", "authPassword": "Soup"}
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
 
-<> 2018-10-26T013537.404.html
+<> 2018-10-27T033751.200.json
+
+###
+
+GET http://localhost:3000/foodList/Id/5bd477888c92521cdcb063aa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033725.200.json
+
+###
+
+GET http://localhost:3000/foodList/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033704.200.json
+
+###
+
+DELETE http://localhost:3000/foodList/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033700.404.html
+
+###
+
+DELETE http://localhost:3000/foodList/Id/5bd477888c92521cdcb063aa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033654.200.json
+
+###
+
+GET http://localhost:3000/foodList/Id/5bd477888c92521cdcb063aa
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033649.200.json
+
+###
+
+GET http://localhost:3000/foodList/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033636.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd477888c92521cdcb063aa/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033606.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd477888c92521cdcb063aa/downvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033605.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd477888c92521cdcb063aa/upvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033600.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd477888c92521cdcb063aa/upvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033558.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd477888c92521cdcb063aa/upvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033554.200.json
+
+###
+
+GET http://localhost:3000/foodList/5bd477888c92521cdcb063aa/upvote
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
+
+<> 2018-10-27T033538.404.html
 
 ###
 
@@ -58,9 +421,9 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "micheal", "authPassword": "Soup"}
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
 
-<> 2018-10-26T013518.200.json
+<> 2018-10-27T033454.200.json
 
 ###
 
@@ -69,9 +432,20 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "micheal", "authPassword": "Soup"}
+{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
 
-<> 2018-10-26T013514.200.json
+<> 2018-10-27T033448.200.json
+
+###
+
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "David", "authPassword": "password"}
+
+<> 2018-10-27T033347.200.json
 
 ###
 
@@ -80,456 +454,75 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "micheal", "authPassword": "Soup"}
+{"authName": "David", "authPassword": "password"}
 
-<> 2018-10-26T013507.200.json
+<> 2018-10-27T033332.200.json
 
 ###
 
-GET http://localhost:3000/foodList/fuzzy/ssfd
+GET http://localhost:3000/user
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"coursedinner": "Main", "fooditem": "Soup"}
+{"authName": "David", "authPassword": "password"}
 
-<> 2018-10-26T012943.200.json
+<> 2018-10-27T033255.200.json
 
 ###
 
-GET http://localhost:3000/foodList/fuzzy/s
+GET http://localhost:3000/user/name/micheal
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"coursedinner": "Main", "fooditem": "Soup"}
+{"authName": "David", "authPassword": "password"}
 
-<> 2018-10-26T012933.200.json
+<> 2018-10-27T033238.200.json
 
 ###
 
-GET http://localhost:3000/foodList/fuzzy/s
+GET http://localhost:3000/foodList/Id/5bd306da20a84d0914706f5e
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"coursedinner": "Main", "fooditem": "Soup"}
+{"authName": "David", "authPassword": "password"}
 
-<> 2018-10-26T012848.200.json
+<> 2018-10-27T033222.200.json
 
 ###
 
-GET http://localhost:3000/foodList/fuzzy/S
+GET http://localhost:3000/foodList/Course/Main
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"coursedinner": "Main", "fooditem": "Soup"}
+{"authName": "David", "authPassword": "password"}
 
-<> 2018-10-26T012845.200.json
+<> 2018-10-27T033200.200.json
 
 ###
 
-GET http://localhost:3000/foodList/fuzzy/S
+GET http://localhost:3000/foodList/votes
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"coursedinner": "Main", "fooditem": "Soup"}
+{"authName": "David", "authPassword": "password"}
 
-<> 2018-10-26T012820.200.json
+<> 2018-10-27T033143.200.json
 
 ###
 
-GET http://localhost:3000/foodList/fuzzy/s
+GET http://localhost:3000/user
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"coursedinner": "Main", "fooditem": "Soup"}
+{"authName": "David", "authPassword": "password"}
 
-<> 2018-10-26T012818.200.json
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012813.200.json
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012618.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012521.200.json
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012328.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012323.404.html
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012251.200.json
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012244.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012209.200.json
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012200.200.json
-
-###
-
-POST http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Soup"}
-
-<> 2018-10-26T012156.200.json
-
-###
-
-POST http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T012146.200.json
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T012020.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T012009.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T011955.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T011816.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T011756.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T011752.200.json
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T010727.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T010352.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T125838.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T125822.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T125644.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T125609.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/A
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T125518.200.json
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T125506.200.json
-
-###
-
-POST http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Main", "fooditem": "Steak"}
-
-<> 2018-10-26T125500.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/s
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-26T125329.404.html
-
-###
-
-GET http://localhost:3000/foodList/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-26T125319.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-26T125248.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/S
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-26T125238.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/So
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-26T125235.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/Sou
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-26T125231.200.json
-
-###
-
-GET http://localhost:3000/foodList/fuzzy/Soup
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Jonsdf", "authPassword": "password"}
-
-<> 2018-10-26T125227.200.json
+<> 2018-10-27T033130.200.json
 
 ###
 
@@ -538,9 +531,20 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{"authName": "Jonsdf", "authPassword": "password"}
+{"authName": "David", "authPassword": "password"}
 
-<> 2018-10-24T120935.200.json
+<> 2018-10-27T033117.200.json
+
+###
+
+GET http://localhost:3000/user/name/micheal
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "David", "authPassword": "password"}
+
+<> 2018-10-27T032836.200.json
 
 ###
 

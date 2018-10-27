@@ -29,7 +29,7 @@ router.findAll = (req, res) => {
 
         res.send(JSON.stringify(foodList,null,5));
     });
-}
+};
 
 
 //Find one piece of food
@@ -43,11 +43,11 @@ router.findUser = (req, res) => {
         else
             res.send(JSON.stringify(user,null,5));
     });
-}
+};
 
 //Deleting a user
 router.deleteUser = (req, res) => {
-    User.findByIdAndRemove(req.params.authName, function(err) {
+    User.findByIdAndRemove(req.params.id, function(err) {
         if (err)
             res.json({ message: 'User NOT DELETED!', errmsg : err } );
         else
@@ -63,7 +63,8 @@ router.addUser = (req,res) => {
 
     user.authName = req.body.authName;
     user.authPassword = req.body.authPassword;
-    user.setPassword(user.authPassword)
+    //Encrypting the password
+    user.setPassword(user.authPassword);
     user.save(function (err) {
         if (err) {
             res.json({message: 'User NOT Added!', errmsg: err});
@@ -71,7 +72,7 @@ router.addUser = (req,res) => {
             res.json({message: 'User Successfully Added!', data: user});
         }
     });
-}
+};
 
 
 module.exports = router;
