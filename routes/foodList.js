@@ -9,10 +9,12 @@ mongoose.connect(mongodbUri);
 
 let db = mongoose.connection;
 
+//Unable to connect to the server
 db.on('error', function (err) {
     console.log('Unable to Connect to [ ' + db.name + ' ]', err);
 });
 
+//Successfully able to connect to server.
 db.once('open', function () {
     console.log('Successfully Connected to [ ' + db.name + ' ]');
 });
@@ -43,6 +45,7 @@ router.findOne = (req, res) => {
     });
 }
 
+//Finding the course dinner
 router.findCourse = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
@@ -58,12 +61,10 @@ router.findCourse = (req, res) => {
 //Add food to database
 router.addFood = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-
     var food = new Food();
 
     food.coursedinner = req.body.coursedinner;
         food.fooditem = req.body.fooditem;
-
             food.save(function(err) {
                 if (err)
                     res.json({ message: 'Food NOT Added!', errmsg : err } );
@@ -71,6 +72,7 @@ router.addFood = (req, res) => {
                     res.json({ message: 'Food Successfully Added!', data: food });
             });
 }
+
 //Add upvote to list
 router.incrementUpvotes = (req, res) => {
     Food.findById(req.params.id, function(err,food) {
@@ -88,6 +90,7 @@ router.incrementUpvotes = (req, res) => {
     });
 }
 
+//Down voting a food system
 router.incrementDownvotes = (req, res) => {
     Food.findById(req.params.id, function(err,food) {
         if (err)

@@ -1,5 +1,6 @@
 let mongoose = require('mongoose');
 
+//Schema
 let FoodSchema = new mongoose.Schema({
         coursedinner: {type: String, default: ""},
         fooditem: {type: String, default: ""},

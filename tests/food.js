@@ -1,8 +1,9 @@
 let Food = require('../models/foodList');
 let food = new Food();
 
+//Testing
 exports.testSomething = function(test) {
-    if (typeof food.fooditem == 'Soup'){
+    if (typeof food.fooditem === 'Soup'){
         test.ok(true, "this passed")
         test.done();
     } else{

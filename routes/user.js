@@ -3,19 +3,22 @@ let express = require('express');
 let router = express.Router();
 let mongoose = require('mongoose');
 
+//Connecting to database
 var mongodbUri ='mongodb://MichealDunne1:FoodDatabase1@ds225543.mlab.com:25543/foodsdb';
-
 mongoose.connect(mongodbUri);
 let db = mongoose.connection;
 
+//Unable to connect to server
 db.on('error', function (err) {
     console.log('Unable to Connect to [ ' + db.name + ' ]', err);
 });
 
+//Successfully connected to server
 db.once('open', function () {
     console.log('Successfully Connected to [ ' + db.name + ' ]');
 });
 
+//Finding all Users
 router.findAll = (req, res) => {
     // Return a JSON representation of our list
     res.setHeader('Content-Type', 'application/json');
@@ -42,6 +45,7 @@ router.findUser = (req, res) => {
     });
 }
 
+//Deleting a user
 router.deleteUser = (req, res) => {
     User.findByIdAndRemove(req.params.authName, function(err) {
         if (err)
@@ -51,6 +55,7 @@ router.deleteUser = (req, res) => {
     });
 }
 
+//Adding a user
 router.addUser = (req,res) => {
     res.setHeader('Content-Type','application/json');
 

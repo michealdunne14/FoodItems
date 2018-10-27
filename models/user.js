@@ -1,6 +1,7 @@
 let mongoose = require('mongoose');
 let crypto = require('crypto');
 
+//Schema
 let AuthSchema = new mongoose.Schema({
         authName: {type: String,default: ""},
         authPassword: String,
