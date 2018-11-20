@@ -1,3 +1,36 @@
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Micheal", "authPassword": "Dunne"}
+
+<> 2018-11-15T084343.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "David", "authPassword": "Chicken Wings"}
+
+<> 2018-11-15T084325.200.json
+
+###
+
+PUT http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "David", "authPassword": "Chicken Wings"}
+
+<> 2018-11-15T084320.404.html
+
+###
+
 GET http://localhost:3000/user
 Accept: */*
 Cache-Control: no-cache
@@ -512,39 +545,6 @@ Content-Type: application/json
 {"authName": "Micheal", "authPassword": "Chicken Wings"}
 
 <> 2018-10-27T063708.404.html
-
-###
-
-GET http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T063657.200.json
-
-###
-
-POST http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T063650.200.json
-
-###
-
-GET http://localhost:3000/user/name/Jon
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Starter", "fooditem": "Chicken Wings"}
-
-<> 2018-10-27T063611.200.json
 
 ###
 
