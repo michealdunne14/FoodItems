@@ -18,18 +18,31 @@ db.once('open', function () {
     console.log('Successfully Connected to [ ' + db.name + ' ]');
 });
 
+
 //Finding all Users
 router.findAll = (req, res) => {
     // Return a JSON representation of our list
     res.setHeader('Content-Type', 'application/json');
 
-    User.find(function(err, foodList) {
+    User.find(function(err, user) {
         if (err)
             res.send(err);
 
-        res.send(JSON.stringify(foodList,null,5));
+        res.send(JSON.stringify(user,null,5));
     });
 };
+
+router.login = (req,res) => {
+    res.setHeader('Content-Type', 'application/json');
+    User.find({"authName": req.params.authName}, function (err,user) {
+        if (err)
+            res.json({message: 'User Not Found',errmsg : err});
+        else
+            //console.log(user.authPassword);
+            //if (user.authPassword)
+                res.send(JSON.stringify(user,null,5))
+    })
+}
 
 
 //Find one piece of food
@@ -53,7 +66,7 @@ router.deleteUser = (req, res) => {
         else
             res.json({ message: 'User Successfully Deleted!'});
     });
-}
+};
 
 //Adding a user
 router.addUser = (req,res) => {
