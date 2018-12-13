@@ -89,6 +89,23 @@ router.incrementUpvotes = (req, res) => {
     });
 };
 
+router.changeName = (req, res) => {
+    Food.findById(req.params.id, function(err,food) {
+        if (err)
+            res.json({ message: 'Food NOT Found!', errmsg : err } );
+        else {
+            food.coursedinner = req.body.coursedinner;
+            food.fooditem = req.body.fooditem;
+            food.save(function (err) {
+                if (err)
+                    res.json({ message: 'Food Changed!', errmsg : err } );
+                else
+                    res.json({ message: 'Food Successfully Changed!', data: food });
+            });
+        }
+    });
+};
+
 //Down voting a food system
 router.incrementDownvotes = (req, res) => {
     Food.findById(req.params.id, function(err,food) {

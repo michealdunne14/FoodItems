@@ -39,6 +39,7 @@ app.post('/user',user.addUser);
 //Puts
 app.put('/foodList/:id/upvote', foodList.incrementUpvotes);
 app.put('/foodList/:id/downvote', foodList.incrementDownvotes);
+app.put('/foodList/:id',foodList.changeName);
 
 //Deletes
 app.delete('/foodList/Id/:id', foodList.deleteFood);

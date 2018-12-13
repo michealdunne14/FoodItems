@@ -1,3 +1,217 @@
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T055908.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T055859.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T055849.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T055745.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T055716.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T115417.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T115109.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T115048.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-13T114738.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"fooditem": "Micheal"}
+
+<> 2018-12-13T114555.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5beed6b04ac00900165fa1cf
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"fooditem": "Micheal"}
+
+<> 2018-12-13T114517.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"fooditem": "Micheal"}
+
+<> 2018-12-13T114331.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"fooditem": "Micheal"}
+
+<> 2018-12-13T114319.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal"}
+
+<> 2018-12-13T114235.200.json
+
+###
+
+PUT http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal"}
+
+<> 2018-12-13T114232.404.html
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal"}
+
+<> 2018-12-13T114024.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Micheal", "authPassword": "Dunne"}
+
+<> 2018-12-13T113950.200.json
+
+###
+
 PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e/upvote
 Accept: */*
 Cache-Control: no-cache
@@ -309,222 +523,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
 {"authName": "Micheal", "authPassword": "Dunne"}
-
-###
-
-GET http://localhost:3000/user/
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-11-21T113736.200.json
-
-###
-
-GET http://localhost:3000/user/login/Jon
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-###
-
-GET http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-11-21T113638.200.json
-
-###
-
-GET http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-###
-
-POST http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-11-15T084343.200.json
-
-###
-
-POST http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-11-15T084325.200.json
-
-###
-
-PUT http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-11-15T084320.404.html
-
-###
-
-GET http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064836.200.json
-
-###
-
-DELETE http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064834.404.html
-
-###
-
-DELETE http://localhost:3000/user/Id/5bd4a44d7b2b752d38201fda
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064828.200.json
-
-###
-
-GET http://localhost:3000/user/Id/5bd4a44d7b2b752d38201fda
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064825.404.html
-
-###
-
-GET http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064814.200.json
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064759.200.json
-
-###
-
-DELETE http://localhost:3000/foodList/Id/5bd306e320a84d0914706f5f
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064752.200.json
-
-###
-
-GET http://localhost:3000/foodList/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064737.200.json
-
-###
-
-PUT http://localhost:3000/foodList/votes
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064734.404.html
-
-###
-
-PUT http://localhost:3000/foodList/5bd306e320a84d0914706f5f/downvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064723.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306e320a84d0914706f5f/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064715.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306e320a84d0914706f5f/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064712.200.json
-
-###
-
-GET http://localhost:3000/foodList/5bd306e320a84d0914706f5f/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "David", "authPassword": "Chicken Wings"}
-
-<> 2018-10-27T064709.404.html
 
 ###
 
