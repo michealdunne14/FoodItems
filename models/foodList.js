@@ -4,6 +4,7 @@ let mongoose = require('mongoose');
 let FoodSchema = new mongoose.Schema({
         coursedinner: {type: String, default: ""},
         fooditem: {type: String, default: ""},
+        image: {type: String, default: ""},
         upvotes: {type: Number, default: 0},
         downvotes: {type: Number, default: 0},
     },

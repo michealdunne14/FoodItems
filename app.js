@@ -30,7 +30,7 @@ app.get('/foodList/Course/:coursedinner', foodList.findCourse);
 app.get('/foodList/Id/:id', foodList.findOne);
 app.get('/user/name/:authName',user.findUser);
 app.get('/foodList/fuzzy/:fooditem',foodList.fuzzySearch);
-app.get('/user/login/:authName',user.login)
+app.get('/user/login/:authName',user.login);
 
 //Posts
 app.post('/foodList',foodList.addFood);
