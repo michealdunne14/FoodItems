@@ -1,3 +1,69 @@
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-14T012122.200.json
+
+###
+
+PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-14T011440.200.json
+
+###
+
+GET http://localhost:3000/foodList/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-14T011431.200.json
+
+###
+
+PUT http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-14T011416.404.html
+
+###
+
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-14T011412.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House"}
+
+<> 2018-12-14T011409.200.json
+
+###
+
 GET http://localhost:3000/foodList
 Accept: */*
 Cache-Control: no-cache
