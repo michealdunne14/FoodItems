@@ -64,7 +64,6 @@ router.addFood = (req, res) => {
 
     food.coursedinner = req.body.coursedinner;
         food.fooditem = req.body.fooditem;
-        food.image = req.body.image;
             food.save(function(err) {
                 if (err)
                     res.json({ message: 'Food NOT Added!', errmsg : err } );
@@ -96,7 +95,6 @@ router.changeName = (req, res) => {
             res.json({ message: 'Food NOT Found!', errmsg : err } );
         else {
             food.coursedinner = req.body.coursedinner;
-            food.fooditem = req.body.fooditem;
             food.save(function (err) {
                 if (err)
                     res.json({ message: 'Food Changed!', errmsg : err } );
