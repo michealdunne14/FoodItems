@@ -11,6 +11,7 @@ let db = mongoose.connection;
 //Unable to connect to server
 db.on('error', function (err) {
     console.log('Unable to Connect to [ ' + db.name + ' ]', err);
+    console.log('Unable to Connect to [ ' + db.name + ' ]', err);
 });
 
 //Successfully connected to server
