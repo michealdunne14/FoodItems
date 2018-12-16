@@ -64,6 +64,7 @@ router.addFood = (req, res) => {
 
     food.coursedinner = req.body.coursedinner;
         food.fooditem = req.body.fooditem;
+        food.description = req.body.description;
         food.image = req.body.image;
             food.save(function(err) {
                 if (err)
@@ -97,6 +98,7 @@ router.changeName = (req, res) => {
         else {
             food.coursedinner = req.body.coursedinner;
             food.fooditem = req.body.fooditem;
+            food.description = req.body.description;
             food.image = req.body.image;
             food.save(function (err) {
                 if (err)
