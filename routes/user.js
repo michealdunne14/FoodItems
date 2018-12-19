@@ -36,23 +36,21 @@ router.findAll = (req, res) => {
 router.login = (req,res) => {
     res.setHeader('Content-Type', 'application/json');
     User.find({"authName": req.params.authName}, function (err,user) {
-        if (err)
-            res.json({message: 'User Not Found',errmsg : err});
-        else{
-                if (user.authName === req.params.authName){
-                    if (user.authPassword === req.params.authPassword) {
+            for (let i = 0; i <= user.length;i++) {
+                if (user[i].authName === req.params.authName) {
+                    if (user[i].validatePassword(req.params.authPassword)) {
                         res.send(JSON.stringify(user.authName))
+
                     }
                 }
-        }
-                res.send(JSON.stringify(user))
-    })
+            }
+        })
+        res.send(JSON.stringify(user))
 }
 
 
 //Find one piece of food
 router.findUser = (req, res) => {
-
     res.setHeader('Content-Type', 'application/json');
 
     User.find({ "authName" : req.params.authName },function(err, user) {
