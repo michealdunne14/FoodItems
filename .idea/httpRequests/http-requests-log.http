@@ -3,6 +3,15 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
 {"_id": "5c1a7d33e3d4c508f001bcd9", "authPassword": "House"}
 
 ###
@@ -482,17 +491,6 @@ Content-Type: application/json
 {"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
 
 <> 2018-12-16T024134.200.json
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-16T023955.200.json
 
 ###
 
