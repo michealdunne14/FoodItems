@@ -37,23 +37,25 @@ router.login = (req,res) => {
     res.setHeader('Content-Type', 'application/json');
 
     User.findById(req.body._id, function (err,user) {
-        console.log(user)
+        //console.log(user)
         if (err) {
             res.json({ message: 'User NOT Found!', errmsg : err } );
         }
         else {
+            console.log(user.validatePassword(req.body.authPassword));
             if (user.validatePassword(req.body.authPassword)) {
-                res.send(JSON.stringify(user,null,5));
+                res.send(JSON.stringify(user));
+            } else {
+                res.send("Invalid Password")
             }
         }
         })
-}
+};
 
 
 //Find one piece of food
 router.findUser = (req, res) => {
     res.setHeader('Content-Type', 'application/json');
-
     User.find({ "authName" : req.params.authName },function(err, user) {
         if (err)
             res.json({ message: 'User NOT Found!', errmsg : err } );

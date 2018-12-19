@@ -6,7 +6,6 @@ const jwt = require('jsonwebtoken');
 let AuthSchema = new mongoose.Schema({
         authName: {type: String,default: ""},
         authPassword: String,
-        hash: String,
         salt: {type: String,default: ""},
     },
     { collection: 'usersdb' });
@@ -18,7 +17,8 @@ let AuthSchema = new mongoose.Schema({
 
     AuthSchema.methods.validatePassword = function(password) {
     const hash = crypto.pbkdf2Sync(password, this.salt, 10000, 512, 'sha512').toString('hex');
-    return this.hash === hash;
+    //console.log(hash)
+    return this.authPassword === hash;
     };
 
     AuthSchema.methods.generateJWT = function() {
@@ -28,7 +28,6 @@ let AuthSchema = new mongoose.Schema({
 
     return jwt.sign({
         authName: this.authName,
-        authPassword: this.authPassword,
         id: this._id,
         exp: parseInt(expirationDate.getTime() / 1000, 10),
     }, 'secret');
@@ -38,7 +37,6 @@ let AuthSchema = new mongoose.Schema({
         return {
         _id: this._id,
         authName: this.authName,
-            authPassword: this.authPassword,
         token: this.generateJWT(),
         };
     };
