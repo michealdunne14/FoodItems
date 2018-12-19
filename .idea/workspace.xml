@@ -1641,7 +1641,7 @@
       <workItem from="1544974344925" duration="616000" />
       <workItem from="1545036981274" duration="842000" />
       <workItem from="1545157685721" duration="786000" />
-      <workItem from="1545216687182" duration="17038000" />
+      <workItem from="1545216687182" duration="17774000" />
     </task>
     <task id="LOCAL-00001" summary="Project 1">
       <created>1539160915882</created>
@@ -1874,11 +1874,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545246398631</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Login">
+      <created>1545249179062</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1545249179062</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142762000" />
+    <option name="totallyTimeSpent" value="143498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1890,7 +1897,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="633" y="0" width="653" height="687" extended-state="1" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59931505" weight="0.36804453" />
@@ -1907,7 +1914,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.69236887" weight="0.27935943" />
       <window_info anchor="bottom" id="REST Client" order="9" sideWeight="0.77922076" weight="0.54270464" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30866426" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.87010676" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.30763116" side_tool="true" weight="0.47864768" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.8078292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
