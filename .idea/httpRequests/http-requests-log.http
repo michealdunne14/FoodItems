@@ -1,3 +1,153 @@
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-19T110158.200.json
+
+###
+
+GET http://localhost:3000/user/login/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-19T110134.200.json
+
+###
+
+GET http://localhost:3000/user/login/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+###
+
+GET http://localhost:3000/user/login/Micheal
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+###
+
+GET http://localhost:3000/user/login/Micheal
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-19T105551.200.json
+
+###
+
+GET http://localhost:3000/user/login/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-19T105541.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-16T024203.200.json
+
+###
+
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-16T024154.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-16T024134.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-16T023955.200.json
+
+###
+
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-16T023945-1.200.json
+
+###
+
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-16T023945.200.json
+
+###
+
+GET http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-16T023847.200.json
+
+###
+
+POST http://localhost:3000/foodList
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-16T023842.200.json
+
+###
+
 POST http://localhost:3000/foodList
 Accept: */*
 Cache-Control: no-cache
@@ -385,125 +535,6 @@ Content-Type: application/json
 {"coursedinner": "Micheal"}
 
 <> 2018-12-13T114232.404.html
-
-###
-
-PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal"}
-
-<> 2018-12-13T114024.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-13T113950.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-06T071933.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-06T071932-2.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-06T071932-1.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-06T071932.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-06T071931.200.json
-
-###
-
-PUT http://localhost:3000/foodList/5bd306da20a84d0914706f5e/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-06T071930.200.json
-
-###
-
-GET http://localhost:3000/foodList/5bd306da20a84d0914706f5e/upvote
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-06T071926.404.html
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
-
-<> 2018-12-06T071831.200.json
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Micheal", "authPassword": "Dunne"}
 
 ###
 

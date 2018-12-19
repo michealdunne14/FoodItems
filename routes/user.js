@@ -38,10 +38,14 @@ router.login = (req,res) => {
     User.find({"authName": req.params.authName}, function (err,user) {
         if (err)
             res.json({message: 'User Not Found',errmsg : err});
-        else
-            //console.log(user.authPassword);
-            //if (user.authPassword)
-                res.send(JSON.stringify(user,null,5))
+        else{
+                if (user.authName === req.params.authName){
+                    if (user.authPassword === req.params.authPassword) {
+                        res.send(JSON.stringify(user.authName))
+                    }
+                }
+        }
+                res.send(JSON.stringify(user))
     })
 }
 
