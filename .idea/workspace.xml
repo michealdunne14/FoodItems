@@ -63,14 +63,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="7331" />
+          <entry key="js" value="7332" />
           <entry key="md" value="1738" />
           <entry key="txt" value="186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="7331" />
+          <entry key="JavaScript" value="7332" />
           <entry key="Markdown" value="1200" />
           <entry key="PLAIN_TEXT" value="724" />
         </counts>
@@ -79,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="222">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -97,7 +97,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/user.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -154,9 +154,9 @@
         <option value="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" />
         <option value="$PROJECT_DIR$/routes/foodList.js" />
         <option value="$PROJECT_DIR$/models/foodList.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/models/user.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -1641,7 +1641,7 @@
       <workItem from="1544974344925" duration="616000" />
       <workItem from="1545036981274" duration="842000" />
       <workItem from="1545157685721" duration="786000" />
-      <workItem from="1545216687182" duration="14315000" />
+      <workItem from="1545216687182" duration="15566000" />
     </task>
     <task id="LOCAL-00001" summary="Project 1">
       <created>1539160915882</created>
@@ -1853,11 +1853,25 @@
       <option name="project" value="LOCAL" />
       <updated>1545244847709</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Login">
+      <created>1545244957174</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1545244957174</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Login">
+      <created>1545245568814</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1545245568814</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140039000" />
+    <option name="totallyTimeSpent" value="141290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1869,7 +1883,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.59931505" weight="0.36804453" />
       <window_info id="Structure" order="1" sideWeight="0.23131673" side_tool="true" weight="0.30445153" />
@@ -1884,7 +1899,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.69236887" weight="0.27935943" />
-      <window_info active="true" anchor="bottom" id="REST Client" order="9" sideWeight="0.77922076" visible="true" weight="0.54270464" />
+      <window_info anchor="bottom" id="REST Client" order="9" sideWeight="0.77922076" weight="0.54270464" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.64590746" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.30763116" side_tool="true" weight="0.47864768" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.8078292" />
@@ -2023,10 +2038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="76">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -2037,10 +2052,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/user.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="222">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
