@@ -1,3 +1,14 @@
+GET http://localhost:3000/user/login/Jon
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
+
+<> 2018-12-19T115007.200.json
+
+###
+
 GET http://localhost:3000/user
 Accept: */*
 Cache-Control: no-cache
@@ -524,17 +535,6 @@ Content-Type: application/json
 {"coursedinner": "Micheal"}
 
 <> 2018-12-13T114235.200.json
-
-###
-
-PUT http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal"}
-
-<> 2018-12-13T114232.404.html
 
 ###
 
