@@ -3,6 +3,266 @@ Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
+{"_id": "5c1a8eb2f6301b220837acb9", "authPassword": "Daemon"}
+
+<> 2018-12-19T063955.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a8eb2f6301b220837acb9", "authPassword": "Daemon"}
+
+<> 2018-12-19T063813.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a8eb2f6301b220837acb9", "authPassword": "Daemon"}
+
+<> 2018-12-19T063728.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a8eb2f6301b220837acb9", "authPassword": "Daemon"}
+
+<> 2018-12-19T063540.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a8eb2f6301b220837acb9", "authPassword": "Daemon"}
+
+<> 2018-12-19T063409.200.json
+
+###
+
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a8eb2f6301b220837acb9", "authPassword": "Daemon"}
+
+<> 2018-12-19T063355.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a8eb2f6301b220837acb9", "authPassword": "Daemon"}
+
+<> 2018-12-19T063304.200.json
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"authName": "Daemon", "authPassword": "Daemon"}
+
+<> 2018-12-19T063218.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7d33e3d4c508f001bcd9", "authPassword": "House"}
+
+<> 2018-12-19T063125.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7d33e3d4c508f001bcd9", "authPassword": "House"}
+
+<> 2018-12-19T063025.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7d33e3d4c508f001bcd9", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7d33e3d4c508f001bcd9", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7d33e3d4c508f001bcd9", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7d33e3d4c508f001bcd9", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7d33e3d4c508f001bcd9", "authPassword": "House"}
+
+<> 2018-12-19T062220.200.json
+
+###
+
+GET http://localhost:3000/user
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+<> 2018-12-19T062127.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+<> 2018-12-19T061159.200.json
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
+
+###
+
+POST http://localhost:3000/user/login
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
 {"_id": "5c1a7be85f22773bfc155969", "authPassword": "House"}
 
 ###
@@ -225,272 +485,6 @@ Cache-Control: no-cache
 Content-Type: application/json
 
 {"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-<> 2018-12-19T045514.500.json
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-<> 2018-12-19T045344.404.html
-
-###
-
-GET http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-<> 2018-12-19T045320.404.html
-
-###
-
-POST http://localhost:3000/login
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-<> 2018-12-19T045244.404.html
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-<> 2018-12-19T044637.200.json
-
-###
-
-GET http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-<> 2018-12-19T044624.200.json
-
-###
-
-POST http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-<> 2018-12-19T044511.200.json
-
-###
-
-POST http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"authName": "Daemon", "authPassword": "House"}
-
-<> 2018-12-19T041644.200.json
-
-###
-
-GET http://localhost:3000/user/login/Jon
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-19T115007.200.json
-
-###
-
-GET http://localhost:3000/user
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-19T110158.200.json
-
-###
-
-GET http://localhost:3000/user/login/Jon
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-19T110134.200.json
-
-###
-
-GET http://localhost:3000/user/login/Jon
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-###
-
-GET http://localhost:3000/user/login/Micheal
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-###
-
-GET http://localhost:3000/user/login/Micheal
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-19T105551.200.json
-
-###
-
-GET http://localhost:3000/user/login/Jon
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-19T105541.200.json
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-16T024203.200.json
-
-###
-
-POST http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-16T024154.200.json
-
-###
-
-GET http://localhost:3000/foodList
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"coursedinner": "Micheal", "fooditem": "House","description": "This is some text that i used","image": "C:\\Users\\miche\\OneDrive\\Pictures\\Screenshots\\2018-11-24 (1).png"}
-
-<> 2018-12-16T024134.200.json
 
 ###
 

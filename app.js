@@ -33,8 +33,8 @@ app.get('/foodList/fuzzy/:fooditem',foodList.fuzzySearch);
 
 //Posts
 app.post('/foodList',foodList.addFood);
-app.post('/user',user.addUser);
 app.post('/user/login',user.login);
+app.post('/user',user.addUser);
 
 //Puts
 app.put('/foodList/:id/upvote', foodList.incrementUpvotes);
