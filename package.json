@@ -13,6 +13,7 @@
     "express": "~4.16.0",
     "fuzzy-search": "^2.1.0",
     "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.4.0",
     "mongodb": "^3.1.7",
     "mongoose": "^5.3.2",
     "morgan": "~1.9.0",

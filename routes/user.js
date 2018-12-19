@@ -35,17 +35,18 @@ router.findAll = (req, res) => {
 
 router.login = (req,res) => {
     res.setHeader('Content-Type', 'application/json');
-    User.find({"authName": req.params.authName}, function (err,user) {
-            for (let i = 0; i <= user.length;i++) {
-                if (user[i].authName === req.params.authName) {
-                    if (user[i].validatePassword(req.params.authPassword)) {
-                        res.send(JSON.stringify(user.authName))
 
-                    }
-                }
+    User.findById(req.body._id, function (err,user) {
+        console.log(user)
+        if (err) {
+            res.json({ message: 'User NOT Found!', errmsg : err } );
+        }
+        else {
+            if (user.validatePassword(req.body.authPassword)) {
+                res.send(JSON.stringify(user,null,5));
             }
+        }
         })
-        res.send(JSON.stringify(user))
 }
 
 

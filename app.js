@@ -35,7 +35,7 @@ app.get('/user/login/:authName',user.login);
 //Posts
 app.post('/foodList',foodList.addFood);
 app.post('/user',user.addUser);
-app.post('/login', user.login);
+app.post('/user/login', user.login);
 
 //Puts
 app.put('/foodList/:id/upvote', foodList.incrementUpvotes);
